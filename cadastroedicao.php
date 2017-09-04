@@ -143,6 +143,7 @@ INFORMAÇÕES DA COPA, ex:
                     $i= $i + 1;
                     echo "teste";
                    echo '<input type="text" class="form-control" id="cidades" name="cidade'.$i.'">';
+                   /*arrumar isso, um botao pra adicionar mais linhas*/
                 };
             ?>
 
