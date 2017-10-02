@@ -33,7 +33,7 @@ INFORMAÇÕES DA COPA, ex:
 <font size="2">CADASTRO PARTIDA/CABECALHO </font>
 </p>
 
-<button align="left" class="btn btn-default col-sm-1 col-sm-offset-1">VOLTAR/BACK</button>
+<button align="left" class="btn btn-primary col-sm-1 col-sm-offset-1">VOLTAR/BACK</button>
 <hr class="col-sm-10 col-sm-offset-1">
 <div class="container col-sm-9 col-sm-offset-2">
 	<form>
@@ -121,7 +121,7 @@ INFORMAÇÕES DA COPA, ex:
         <br><br>
         <br><br>
         <br><br>
-        <button type="submit" class="btn btn-default">PROXIMO/NEXT</button>
+        <button type="submit" class="btn btn-primary">PROXIMO/NEXT</button>
     </form>
 </div>
 
