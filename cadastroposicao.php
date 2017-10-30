@@ -122,7 +122,7 @@
                 <div class="form-group col-sm-2">
                     <label for="text">Y</label>   
                 </div>
-
+                <div id=camposPosicaoTime2 >
                 <?php
 
                 for ($i=1; $i < 12; $i++) { 
@@ -144,7 +144,7 @@
                     }
             
                 ?>
-
+                </div>
                 <div class="col-sm-6 ">
                     &nbsp&nbsp&nbsp
                     <button type="button" class="btn btn-primary" onclick="addCampoTime2()">+</button>
