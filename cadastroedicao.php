@@ -23,30 +23,22 @@
 <body>
     <br>
     <P align="center" class="col-sm-10 col-sm-offset-1"  >
-        <font size="2">
-            INFORMAÇÕES DA COPA, ex:
-            <br>
-        </font>
-        <font size="7">
-            FIFA WORLD CUP
-        </font>
-        <br>
+      <button type="button" class="btn btn-primary"> Onde encontrar? </button>
+        
     </p>
-    <p align="left" class="col-sm-10 col-sm-offset-1 ">
-        <font size="2">CADASTRO EDICAO </font>
-    </p>
+    
 
-    <button align="left" class="btn btn-primary col-sm-1 col-sm-offset-1">VOLTAR/BACK</button>
+    
     <hr class="col-sm-10 col-sm-offset-1">
     <div class="container col-sm-9 col-sm-offset-2">
     	<form>
         <!-- SELECIONAR O PAIS SEDE -->
-            <div class="form-group col-sm-2">
+            <div class="form-group col-sm-3">
                 <label for="etapa">PAIS/COUNTRY: </label>
                 <input type="text" class="form-control" id="pais" name="pais">
             </div>
          <!-- SELECIONAR O PAIS SEDE -->
-            <div class="form-group col-sm-2">
+            <div class="form-group col-sm-3">
                 <label for="etapa">ANO/YEAR: </label>
                 <input type="text" class="form-control" id="ano" name="ano">
             </div>
@@ -57,7 +49,7 @@
                 <label for="etapa">TIMES/TEAMS: </label>
                 
                 <br><br>
-                <div class="form-group col-sm-2">
+                <div class="form-group col-sm-3">
                         <label for="text">A</label>
                         <input type="text" class="form-control" id="grupoTime" name="grupoAtime1">
                         <input type="text" class="form-control" id="grupoTime" name="grupoAtime2">
@@ -65,7 +57,7 @@
                         <input type="text" class="form-control" id="grupoTime" name="grupoAtime4">
                 </div>
 
-                <div class="form-group col-sm-2">
+                <div class="form-group col-sm-3">
                         <label for="text">B</label>
                         <input type="text" class="form-control" id="grupoTime" name="grupoBtime1">
                         <input type="text" class="form-control" id="grupoTime" name="grupoBtime2">
@@ -73,7 +65,7 @@
                         <input type="text" class="form-control" id="grupoTime" name="grupoBtime4">
                 </div>
 
-                 <div class="form-group col-sm-2">
+                 <div class="form-group col-sm-3">
                         <label for="text">C</label>
                         <input type="text" class="form-control" id="grupoTime" name="grupoCtime1">
                         <input type="text" class="form-control" id="grupoTime" name="grupoCtime2">
@@ -81,7 +73,7 @@
                         <input type="text" class="form-control" id="grupoTime" name="grupoCtime4">
                 </div>
 
-                 <div class="form-group col-sm-2">
+                 <div class="form-group col-sm-3">
                         <label for="text">D</label>
                         <input type="text" class="form-control" id="grupoTime" name="grupoDtime1">
                         <input type="text" class="form-control" id="grupoTime" name="grupoDtime2">
@@ -89,7 +81,7 @@
                         <input type="text" class="form-control" id="grupoTime" name="grupoDtime4">
                 </div>
 
-                <div class="form-group col-sm-2">
+                <div class="form-group col-sm-3">
                         <label for="text">E</label>
                         <input type="text" class="form-control" id="grupoTime" name="grupoEtime1">
                         <input type="text" class="form-control" id="grupoTime" name="grupoEtime2">
@@ -97,7 +89,7 @@
                         <input type="text" class="form-control" id="grupoTime" name="grupoEtime4">
                 </div>
 
-                <div class="form-group col-sm-2">
+                <div class="form-group col-sm-3">
                         <label for="text">F</label>
                         <input type="text" class="form-control" id="grupoTime" name="grupoFtime1">
                         <input type="text" class="form-control" id="grupoTime" name="grupoFtime2">
@@ -105,7 +97,7 @@
                         <input type="text" class="form-control" id="grupoTime" name="grupoFtime4">
                 </div>
 
-                <div class="form-group col-sm-2">
+                <div class="form-group col-sm-3">
                         <label for="text">G</label>
                         <input type="text" class="form-control" id="grupoTime" name="grupoGtime1">
                         <input type="text" class="form-control" id="grupoTime" name="grupoGtime2">
@@ -113,7 +105,7 @@
                         <input type="text" class="form-control" id="grupoTime" name="grupoGtime4">
                 </div>
 
-                <div class="form-group col-sm-2">
+                <div class="form-group col-sm-3 ">
                         <label for="text">H</label>
                         <input type="text" class="form-control" id="grupoTime" name="grupoHtime1">
                         <input type="text" class="form-control" id="grupoTime" name="grupoHtime2">
@@ -156,7 +148,7 @@
             </div>
 
             <div class="col-sm-12"><br><br>
-                <button type="submit" class="btn btn-primary">PROXIMO/NEXT</button>
+                <button type="submit" class="btn btn-primary">SALVAR</button>
             </div>
         </form>
     </div>

@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <html>
-	<meta charset="utf-8">
-	<link href="css/style.css" rel="stylesheet">
-	<meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- https://bootsnipp.com/snippets/3kerp -->
-	<!-- CSS e JS do layout -->
+    <!-- https://bootsnipp.com/snippets/3kerp -->
+    <!-- CSS e JS do layout -->
     <script src="bootstrap/layout/jquery/jquery-1.11.1.min.js"></script>
     <link href="bootstrap/layout/css/bootstrap.min.css" rel="stylesheet">
     <script src="bootstrap/layout/js/bootstrap.min.js"></script>
 <head>
-	<title>FIFA SCOUT</title>
+    <title>FIFA SCOUT</title>
 
 </head>
 <body>
 
 <div class="container">
-	<div class="row">
-		<h1>Ipsum</h1>
+    <div class="row">
+        <h1> (EDICAO)</h1>
         <div role="tabpanel">
-            <div class="col-sm-3">
+            <div class="col-sm-2">
                 <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
-                    <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Lorem ipsum</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Zombie ipsum</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Gansta ipsum</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Corporate ipsum</a></li>
+                    <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Sobre</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Cadastrar uma Seleção</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Cadastrar uma Partida</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Como funciona</a></li>
                 </ul>
             </div>
-            <div class="col-sm-9">
+            <div class="col-sm-10">
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="tab1">
+                        
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt feugiat lorem, at ornare tellus faucibus ut.
                             Curabitur eget metus dapibus nibh laoreet lacinia eget id metus. Mauris quis convallis elit, ac convallis augue. 
@@ -43,17 +44,8 @@
                         </p>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab2">
-                        <p>
-                            Zombie ipsum reversus ab viral inferno, nam rick grimes malum cerebro. De carne lumbering animata corpora quaeritis. 
-                            Summus brains sit, morbo vel maleficia? De apocalypsi gorger omero undead survivor dictum mauris.
-                            Hi mindless mortuis soulless creaturas, imo evil stalking monstra adventus resi dentevil vultus comedat cerebella viventium.
-                            Qui animated corpse, cricket bat max brucks terribilem incessu zomby. 
-                        </p>
-                        <p>
-                            The voodoo sacerdos flesh eater, suscitat mortuos comedere 
-                            carnem virus. Zonbi tattered for solum oculi eorum defunctis go lum cerebro. Nescio brains an Undead zombies. 
-                            Sicut malus putrid voodoo horror. Nigh tofth eliv ingdead.
-                        </p>
+                        <?php include 'cadastroselecao.php'; ?> 
+                       
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab3">
                         <p>
@@ -86,7 +78,7 @@
                 </div>
             </div>
         </div>
-	</div>
+    </div>
 </div>
 
 </body>

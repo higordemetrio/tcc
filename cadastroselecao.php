@@ -23,25 +23,15 @@
 <body>
     <br>
     <P align="center" class="col-sm-10 col-sm-offset-1"  >
-        <font size="2">
-            INFORMAÇÕES DA COPA, ex:
-            <br>
-        </font>
-        <font size="7">
-            FIFA WORLD CUP
-        </font>
-        <br>
+      <button type="button" class="btn btn-primary"> Onde encontrar? </button>
+        
     </p>
-    <p align="left" class="col-sm-10 col-sm-offset-1 ">
-        <font size="2">CADASTRO SELECAO </font>
-    </p>
-
-    <button align="left" class="btn btn-primary col-sm-1 col-sm-offset-1">VOLTAR/BACK</button>
+    
     <hr class="col-sm-10 col-sm-offset-1">
-    <div class="container col-sm-9 col-sm-offset-2">
+    <div class="container col-sm-10 col-sm-offset-2">
         <form>
         <!-- SELECIONAR O PAIS SEDE -->
-           <div class="form-group col-sm-2">
+           <div class="form-group col-sm-3">
                 <label for="etapa">TEAM:</label>
                 <select class="form-control" id="etapa" name="etapa">
                     <option>-</option>
@@ -56,15 +46,15 @@
             
             <br><br>
             <div class="col-sm-12"><br><br>
-                <div class="form-group col-sm-1">
+                <div class="form-group col-sm-2">
                     <label for="text">Numero</label>   
                 </div>
 
-                <div class="form-group col-sm-3">
+                <div class="form-group col-sm-5">
                     <label for="text">Nome</label>   
                 </div>
 
-                <div class="form-group col-sm-2">
+                <div class="form-group col-sm-3">
                     <label for="text">Posicao</label>   
                 </div>
             </div> 
@@ -74,33 +64,32 @@
             for ($i=1; $i < 25; $i++) { 
                 echo '   
                 <div class="col-sm-12">
-                <div id = numero class="form-group col-sm-1">               
-                    <input type="text" class="form-control" id="numero" name="numero'.$i.'">              
-                </div>
+                    <div id = numero class="form-group col-sm-2">               
+                        <input type="text" class="form-control" id="numero" name="numero'.$i.'">              
+                    </div>
 
-                <div id = nome class="form-group col-sm-3">             
-                    <input type="text" class="form-control" id="nome" name="nome'.$i.'">
-                </div>
+                    <div id = nome class="form-group col-sm-5">             
+                        <input type="text" class="form-control" id="nome" name="nome'.$i.'">
+                    </div>
 
-                <div id = posicao class="form-group col-sm-2">             
-                    <div class="form-group">
-                        <select class="form-control" id="posicao" name="posicao'.$i.'">
-                            <option>Goalkeeper</option>
-                            <option>Defender</option>
-                            <option>Midfielder</option>
-                            <option>Forward</option>
-                            <option>Coach</option>
-                        </select>
+                    <div id = posicao class="form-group col-sm-3">             
+                        <div class="form-group">
+                            <select class="form-control" id="posicao" name="posicao'.$i.'">
+                                <option>Goalkeeper</option>
+                                <option>Defender</option>
+                                <option>Midfielder</option>
+                                <option>Forward</option>
+                                <option>Coach</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-            </div>
             ';
             }
          
             ?>
-            <br>
             <div class="col-sm-12"><br><br>
-                <button type="submit" class="btn btn-primary">PROXIMO/NEXT</button>
+                <button type="submit" class="btn btn-primary">SALVAR</button>
             </div>
         </form>
     </div>
