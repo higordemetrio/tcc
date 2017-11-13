@@ -20,25 +20,16 @@
 
 </head>
 <body>
-<br>
-<P align="center" class="col-sm-10 col-sm-offset-1"  >
-<font size="2">
-INFORMAÇÕES DA COPA, ex:
-<br>
-</font>
-<font size="7">BRAZIL 2014 </font>
-<br>
-</p>
-<p align="left" class="col-sm-10 col-sm-offset-1 ">
-<font size="2">CADASTRO PARTIDA/CABECALHO </font>
-</p>
-
-<button align="left" class="btn btn-primary col-sm-1 col-sm-offset-1">VOLTAR/BACK</button>
+ <br>
+    <P align="center" class="col-sm-10 col-sm-offset-1"  >
+      <button type="button" class="btn btn-primary"> Onde encontrar? </button>
+        
+    </p>
 <hr class="col-sm-10 col-sm-offset-1">
 <div class="container col-sm-9 col-sm-offset-2">
-	<form>
+	<form action="partida.php" method="post">
     <!-- SELECIONAR A ETAPA DA COMPETICAO -->
-        <div class="form-group col-sm-2">
+        <div class="form-group col-sm-3">
             <label for="etapa">ETAPA/STAGE: </label>
             <select class="form-control" id="etapa" name="etapa">
                 <option>-</optio n>
@@ -50,9 +41,9 @@ INFORMAÇÕES DA COPA, ex:
 
         <br><br><br><br>
 
-        <div class="col-md-offset-3">
+        <div class="col-md-offset-4">
          <!-- SELECIONAR O TIME 1 -->
-            <div class="form-group col-sm-2">
+            <div class="form-group col-sm-5">
                 <label for="text">TIME/TEAM:</label>
                 <select class="form-control" id="time1" name="time1">
                     <option>-</option>
@@ -62,11 +53,11 @@ INFORMAÇÕES DA COPA, ex:
 
             </div>
              <!-- VERSUS -->
-            <div class="col-sm-1" align="center">
-            <label><font size="20px">X </font></label>
+            <div class="col-sm-2" align="center">
+            <label><font size="20px">X</font></label>
             </div>
              <!-- SELECIONAR O TIME 2 -->
-            <div class="form-group col-sm-2">
+            <div class="form-group col-sm-5">
                 <label for="text"> TIME/TEAM:</label>
                 <select class="form-control" id="time2" name="time2">
                     <option>-</option>
@@ -78,13 +69,13 @@ INFORMAÇÕES DA COPA, ex:
 
         <br><br><br><br><br><br>
          <!-- INPUT DO NUMERO DO JOGO -->
-        <div class="form-group col-sm-1">
+        <div class="form-group col-sm-2">
             <label for="text">#</label>
             <input type="text" class="form-control" id="num" name="num"">
         </div>
 
         <!-- DATA DO JOGO -->
-        <div class="form-group col-sm-3">
+        <div class="form-group col-sm-5">
             <label for="text">DATA/DATE & HORA/HOUR </label>
             
              <div >
@@ -109,7 +100,7 @@ INFORMAÇÕES DA COPA, ex:
 
         </div>
         <!-- CIDADE DO JOGO -->
-        <div class="form-group col-sm-3">
+        <div class="form-group col-sm-5">
                 <label for="text"> CIDADE/CITY:</label>
                 <select class="form-control" id="cidade" name="cidade">
                     <option>-</option>
@@ -121,7 +112,7 @@ INFORMAÇÕES DA COPA, ex:
         <br><br>
         <br><br>
         <br><br>
-        <button type="submit" class="btn btn-primary">PROXIMO/NEXT</button>
+        <button type="submit" class="btn btn-primary">PROXIMO</button>
     </form>
 </div>
 

@@ -52,7 +52,7 @@
                         <form action="edicao.php" method="post">
                             <div class="col-sm-12">
                             <!-- SELECIONAR O PAIS SEDE -->
-                                <div class="form-group col-sm-3">
+                                <div class="form-group col-sm-3 col-sm-offset-3">
                                 <BR>
                                     <label for="etapa">EDICÃO:</label>
 
@@ -66,7 +66,7 @@
                                 </div>
                                 
                             </div>
-                           <button type="submit" class="btn btn-primary col-sm-offset-1">PROXIMO</button>
+                           <button type="submit" class="btn btn-primary col-sm-offset-4">PROXIMO</button>
                         </form>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab4">

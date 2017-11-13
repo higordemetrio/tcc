@@ -18,7 +18,7 @@
 
 <div class="container">
     <div class="row">
-        <h1> (EDICAO)</h1>
+        <h1> (PARTIDA)</h1>
         <div role="tabpanel">
             <div class="col-sm-2">
                 <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
@@ -76,8 +76,8 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab5">
                         <p align="center">
-                            <font size='4'> Você tem certeza que deseja voltar ao ínicio?</font> <br><br>
-                            <a  href="index.php" class="btn btn-primary">Sim</a>
+                            <font size='4'> Você tem certeza que deseja voltar à edição?</font> <br><br>
+                            <a  href="edicao.php" class="btn btn-primary">Sim</a>
                         </p>
                        
                     </div>
