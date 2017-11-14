@@ -44,12 +44,12 @@
                         </p>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab2">
-                        <?php include 'cadastroedicao.php'; ?> 
+                        <?php include 'telas/inicio/cadastroedicao.php'; ?> 
                        
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab3">
                         
-                        <form action="edicao.php" method="post">
+                        <form action="telas/inicio/edicao.php" method="post">
                             <div class="col-sm-12">
                             <!-- SELECIONAR O PAIS SEDE -->
                                 <div class="form-group col-sm-3 col-sm-offset-3">

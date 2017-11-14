@@ -7,9 +7,9 @@
 
     <!-- https://bootsnipp.com/snippets/3kerp -->
     <!-- CSS e JS do layout -->
-    <script src="bootstrap/layout/jquery/jquery-1.11.1.min.js"></script>
-    <link href="bootstrap/layout/css/bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap/layout/js/bootstrap.min.js"></script>
+    <script src="../../bootstrap/layout/jquery/jquery-1.11.1.min.js"></script>
+    <link href="../../bootstrap/layout/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../../bootstrap/layout/js/bootstrap.min.js"></script>
 <head>
     <title>FIFA SCOUT</title>
 
@@ -23,10 +23,14 @@
             <div class="col-sm-2">
                 <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
                     <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Sobre</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Cadastrar uma Seleção</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Cadastrar uma Partida</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Como funciona</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">Voltar</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Start</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Full Time</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Tactical Startlist Neutral</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">Actual Formation</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab6" aria-controls="tab6" role="tab" data-toggle="tab">Team Statistic</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab7" aria-controls="tab7" role="tab" data-toggle="tab">Player Statistic</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab8" aria-controls="tab8" role="tab" data-toggle="tab">Passing Distribution</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab9" aria-controls="tab9" role="tab" data-toggle="tab">Voltar</a></li>
                 </ul>
             </div>
             <div class="col-sm-10">
@@ -74,10 +78,10 @@
                             for state of the art customer service.
                         </p>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="tab5">
+                    <div role="tabpanel" class="tab-pane" id="tab9">
                         <p align="center">
                             <font size='4'> Você tem certeza que deseja voltar à edição?</font> <br><br>
-                            <a  href="edicao.php" class="btn btn-primary">Sim</a>
+                            <a  href="../inicio/edicao.php" class="btn btn-primary">Sim</a>
                         </p>
                        
                     </div>

@@ -27,7 +27,7 @@
     </p>
 <hr class="col-sm-10 col-sm-offset-1">
 <div class="container col-sm-9 col-sm-offset-2">
-	<form action="partida.php" method="post">
+	<form action="../partida/partida.php" method="post">
     <!-- SELECIONAR A ETAPA DA COMPETICAO -->
         <div class="form-group col-sm-3">
             <label for="etapa">ETAPA/STAGE: </label>

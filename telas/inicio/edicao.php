@@ -7,9 +7,9 @@
 
     <!-- https://bootsnipp.com/snippets/3kerp -->
     <!-- CSS e JS do layout -->
-    <script src="bootstrap/layout/jquery/jquery-1.11.1.min.js"></script>
-    <link href="bootstrap/layout/css/bootstrap.min.css" rel="stylesheet">
-    <script src="bootstrap/layout/js/bootstrap.min.js"></script>
+    <script src="../../bootstrap/layout/jquery/jquery-1.11.1.min.js"></script>
+    <link href="../../bootstrap/layout/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../../bootstrap/layout/js/bootstrap.min.js"></script>
 <head>
     <title>FIFA SCOUT</title>
 
@@ -46,13 +46,13 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab2">
                         
-                        <?php include 'cadastroselecao.php'; ?> 
+                        <?php include '../edicao/cadastroselecao.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab3">
-                        <?php include 'cadastrocabecalho.php'; ?> 
+                        <?php include '../edicao/cadastrocabecalho.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             
                         </div>
@@ -77,7 +77,7 @@
                     <div role="tabpanel" class="tab-pane" id="tab5">
                         <p align="center">
                             <font size='4'> Você tem certeza que deseja voltar ao ínicio?</font> <br><br>
-                            <a  href="index.php" class="btn btn-primary">Sim</a>
+                            <a  href="../../index.php" class="btn btn-primary">Sim</a>
                         </p>
                        
                     </div>
