@@ -26,8 +26,8 @@
         
     </p>
     
-    <hr class="col-sm-10 col-sm-offset-1">
-    <div class="container col-sm-10 col-sm-offset-2">
+    <hr class="col-sm-12">
+    <div class="container col-sm-12">
         <form>
         <!-- SELECIONAR O PAIS SEDE -->
            <div class="form-group col-sm-3">
@@ -45,16 +45,20 @@
             
             <br><br>
             <div class="col-sm-12"><br><br>
-                <div class="form-group col-sm-2">
-                    <label for="text">Numero</label>   
-                </div>
-
-                <div class="form-group col-sm-5">
-                    <label for="text">Nome</label>   
+                <div class="form-group col-sm-1">
+                    <label for="text">#</label>   
                 </div>
 
                 <div class="form-group col-sm-3">
-                    <label for="text">Posicao</label>   
+                    <label for="text">Name</label>   
+                </div>
+
+                <div class="form-group col-sm-2">
+                    <label for="text">Pos</label>   
+                </div>
+
+                <div class="form-group col-sm-3">
+                    <label for="text">DOB</label>   
                 </div>
             </div> 
           
@@ -63,25 +67,44 @@
             for ($i=1; $i < 25; $i++) { 
                 echo '   
                 <div class="col-sm-12">
-                    <div id = numero class="form-group col-sm-2">               
+                    <div id = numero class="form-group col-sm-1">               
                         <input type="text" class="form-control" id="numero" name="numero'.$i.'">              
                     </div>
 
-                    <div id = nome class="form-group col-sm-5">             
+                    <div id = nome class="form-group col-sm-3">             
                         <input type="text" class="form-control" id="nome" name="nome'.$i.'">
                     </div>
 
-                    <div id = posicao class="form-group col-sm-3">             
+                    <div id = posicao class="form-group col-sm-2">             
                         <div class="form-group">
                             <select class="form-control" id="posicao" name="posicao'.$i.'">
-                                <option>Goalkeeper</option>
-                                <option>Defender</option>
-                                <option>Midfielder</option>
-                                <option>Forward</option>
+                                <option>GK</option>
+                                <option>DF</option>
+                                <option>MF</option>
+                                <option>FW</option>
                                 <option>Coach</option>
                             </select>
                         </div>
                     </div>
+
+                    
+                     
+                    <div  id = posicao class="form-group col-sm-3">
+                        <div class="form-group">
+                                <input type="text" id="datepicker" class="form-control datepicker" name="data"/>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                    $(function () {
+                        $("#datepicker").datepicker({
+                           
+                            format: "dd-mm-yy"
+                            
+                        });
+                    });
+                    </script>
+           
+                    
                 </div>
             ';
             }
