@@ -63,6 +63,13 @@
                     <label for="text">DOB</label>   
                 </div>
 
+                <div class="form-group col-sm-3">
+                    <label for="text">Club</label>   
+                </div>
+
+                <div class="form-group col-sm-1">
+                    <label for="text">H</label>   
+                </div>
             </div> 
           
             <?php
@@ -95,7 +102,14 @@
                     <div id = data class="form-group col-sm-2">
                         <input type="text" class="form-control" id="data" value="dd/mm/aa" name="data'.$i.'"/>
                     </div>
-   
+               
+                    <div id = clube class="form-group col-sm-3">
+                        <input type="text" class="form-control" id="clube"  name="clube'.$i.'"/>
+                    </div>
+
+                    <div id = altura class="form-group col-sm-1">
+                        <input type="text" class="form-control" id="altura"  name="altura'.$i.'"/>
+                    </div>
                      
            
                     
