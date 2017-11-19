@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
@@ -35,10 +36,14 @@
            <div class="form-group col-sm-3">
                 <label for="etapa">TEAM:</label>
                 <select class="form-control" id="etapa" name="etapa">
-                    <option>-</option>
                     <option>BRAZIL</option>
                     <option>GERMANY</option>
                 </select>
+            </div>
+
+            <div class="form-group col-sm-2">
+                <label for="abreviatura">ABREVIATURA:</label>
+                 <input type="text" class="form-control" id="abreviatura" name="abreviatura">
             </div>
 
             <br><br><br><br>
@@ -60,14 +65,14 @@
                 </div>
 
                 <div class="form-group col-sm-2">
-                    <label for="text">DOB</label>   
+                    <label for="text">DOB (dd/mm/aa)</label>   
                 </div>
 
             </div> 
           
             <?php
 
-            for ($i=1; $i < 25; $i++) { 
+            for ($i=1; $i < 24; $i++) { 
                 echo '   
                 <div class="col-sm-12">
                     <div id = numero class="form-group col-sm-1">               
@@ -85,7 +90,6 @@
                                 <option>DF</option>
                                 <option>MF</option>
                                 <option>FW</option>
-                                <option>Coach</option>
                             </select>
                         </div>
                     </div>
@@ -93,17 +97,26 @@
                     
                      
                     <div id = data class="form-group col-sm-2">
-                        <input type="text" class="form-control" id="data" value="dd/mm/aa" name="data'.$i.'"/>
+                        <input type="text" class="form-control" id="data" name="data'.$i.'"/>
+                        
                     </div>
-   
-                     
-           
-                    
                 </div>
             ';
             }
-         
             ?>
+            <hr>
+            <div id = nome class="form-group col-sm-12"> 
+                <div class="col-sm-4">
+                    <label>Couch Name:</label>            
+                    <input type="text" class="form-control" id="nome" name="nomecouch">
+                </div>
+
+                <div class="col-sm-2">
+                    <label>Nacionalidade:</label>            
+                    <input type="text" class="form-control" id="nome" name="naccouch">
+                </div>
+            </div>
+
             <div class="col-sm-12"><br><br>
                 <button type="submit" class="btn btn-primary">SALVAR</button>
             </div>

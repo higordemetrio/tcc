@@ -1,3 +1,14 @@
+<?php 
+    $etapa = $_GET['etapa'];
+    $time1 = $_GET['time1'];
+    $time2 = $_GET['time2'];
+    $num = $_GET['num'];
+    $datetime = $_GET['datetime'];
+    $cidade = $_GET['cidade'];
+
+    
+
+?>
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
@@ -18,13 +29,15 @@
 
 <div class="container">
     <div class="row">
-        <h1> (PARTIDA)</h1>
+        <h4> <?php echo $etapa;?> </h4>
+        <h1> <?php echo $time1." - ".$time2;?></h1>
+        <h3> <?php echo "#".$num." &nbsp ".$datetime." &nbsp  ".$cidade;  ?></h3>
         <div role="tabpanel">
             <div class="col-sm-2">
                 <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
-                    <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Sobre</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Start</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Full Time</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Start (Line-ups)</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Full Time (Match Report)</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Full Time (Match Statistics)</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Tactical Startlist Neutral</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">Actual Formation</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab6" aria-controls="tab6" role="tab" data-toggle="tab">Team Statistic</a></li>
@@ -35,48 +48,24 @@
             </div>
             <div class="col-sm-10">
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="tab1">
+                    <div role="tabpanel" class="tab-pane" id="tab1">
                         
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt feugiat lorem, at ornare tellus faucibus ut.
-                            Curabitur eget metus dapibus nibh laoreet lacinia eget id metus. Mauris quis convallis elit, ac convallis augue. 
-                            Pellentesque ornare cursus nibh quis fermentum. Morbi faucibus at tortor sed volutpat. Etiam at ex molestie turpis aliquam auctor.
-                            Nulla consequat tristique augue, vel venenatis massa fringilla sit amet. Morbi egestas turpis facilisis sem faucibus finibus.
-                        </p>
-                        <p>
-                            Nam sodales magna eget nulla interdum gravida. Aenean cursus magna vel lorem eleifend, vel eleifend massa rhoncus. 
-                            Duis accumsan vehicula ultricies. Proin tincidunt blandit congue. Curabitur semper odio ut malesuada dapibus.
-                        </p>
-                    </div>
-                    <div role="tabpanel" class="tab-pane" id="tab2">
-                        
-                        <?php include 'cadastroselecao.php'; ?> 
+                        <?php include 'start.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="tab3">
+                    <div role="tabpanel" class="tab-pane" id="tab2">
                         <?php include 'cadastrocabecalho.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane" id="tab4">
-                        <p>
-                            Collaboratively administrate empowered markets via plug-and-play networks. 
-                            Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without 
-                            revolutionary ROI.
-                        </p>
-                        <p>
-                            Efficiently unleash cross-media information without cross-media value. 
-                            Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar 
-                            solutions without functional solutions.
-                        </p>
-                        <p>
-                            Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate 
-                            one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service 
-                            for state of the art customer service.
-                        </p>
+                    <div role="tabpanel" class="tab-pane" id="tab3">
+                        <?php include 'matchstatistics.php'; ?> 
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab9">
                         <p align="center">

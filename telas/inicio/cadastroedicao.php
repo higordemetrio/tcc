@@ -23,7 +23,7 @@
 <body>
     <br>
     <P align="center" class="col-sm-10 col-sm-offset-1"  >
-      <button type="button" class="btn btn-primary"> Onde encontrar? </button>
+      <a type="button" href="telas/inicio/ondeencontrar.php" target="_blank" class="btn btn-primary"> Onde encontrar? </a>
         
     </p>
     

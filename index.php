@@ -30,18 +30,8 @@
             </div>
             <div class="col-sm-10">
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane active" id="tab1">
-                        
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tincidunt feugiat lorem, at ornare tellus faucibus ut.
-                            Curabitur eget metus dapibus nibh laoreet lacinia eget id metus. Mauris quis convallis elit, ac convallis augue. 
-                            Pellentesque ornare cursus nibh quis fermentum. Morbi faucibus at tortor sed volutpat. Etiam at ex molestie turpis aliquam auctor.
-                            Nulla consequat tristique augue, vel venenatis massa fringilla sit amet. Morbi egestas turpis facilisis sem faucibus finibus.
-                        </p>
-                        <p>
-                            Nam sodales magna eget nulla interdum gravida. Aenean cursus magna vel lorem eleifend, vel eleifend massa rhoncus. 
-                            Duis accumsan vehicula ultricies. Proin tincidunt blandit congue. Curabitur semper odio ut malesuada dapibus.
-                        </p>
+                    <div role="tabpanel" class="tab-pane active" id="tab1">                        
+                        <?php include 'telas/inicio/sobre.php'; ?>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab2">
                         <?php include 'telas/inicio/cadastroedicao.php'; ?> 
@@ -49,42 +39,10 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab3">
                         
-                        <form action="telas/inicio/edicao.php" method="post">
-                            <div class="col-sm-12">
-                            <!-- SELECIONAR O PAIS SEDE -->
-                                <div class="form-group col-sm-3 col-sm-offset-3">
-                                <BR>
-                                    <label for="etapa">EDICÃO:</label>
-
-                                    <select class="form-control" id="etapa" name="etapa">
-                                        <option>-</option>
-                                        <option>BRAZIL 2014</option>
-                                        <option>AFRICA 2010</option>
-                                    </select>
-
-                                     
-                                </div>
-                                
-                            </div>
-                           <button type="submit" class="btn btn-primary col-sm-offset-4">PROXIMO</button>
-                        </form>
+                        <?php include 'telas/inicio/editaredicao.php'; ?> 
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab4">
-                        <p>
-                            Collaboratively administrate empowered markets via plug-and-play networks. 
-                            Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without 
-                            revolutionary ROI.
-                        </p>
-                        <p>
-                            Efficiently unleash cross-media information without cross-media value. 
-                            Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar 
-                            solutions without functional solutions.
-                        </p>
-                        <p>
-                            Completely synergize resource sucking relationships via premier niche markets. Professionally cultivate 
-                            one-to-one customer service with robust ideas. Dynamically innovate resource-leveling customer service 
-                            for state of the art customer service.
-                        </p>
+                        <?php include 'telas/inicio/comofunciona.php'; ?> 
                     </div>
                 </div>
             </div>
