@@ -1,10 +1,10 @@
+<?php 
+if (isset($_GET['edicao'])) {
+    $edicao = $_GET['edicao']; 
+    }
+?>
 <!DOCTYPE html>
 <html>
-<?php 
-    $edicao = $_GET['edicao'];
-
-?>
-
     <meta charset="utf-8">
     <link href="css/style.css" rel="stylesheet">
     <meta charset="utf-8">

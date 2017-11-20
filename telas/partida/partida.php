@@ -5,6 +5,7 @@
     $num = $_GET['num'];
     $datetime = $_GET['datetime'];
     $cidade = $_GET['cidade'];
+    $edicao = $_GET['edicao'];
 
     
 
@@ -70,7 +71,7 @@
                     <div role="tabpanel" class="tab-pane" id="tab9">
                         <p align="center">
                             <font size='4'> Você tem certeza que deseja voltar à edição?</font> <br><br>
-                            <a  href="../inicio/edicao.php" class="btn btn-primary">Sim</a>
+                            <a <?php echo 'href="../inicio/edicao.php?edicao='.$edicao.'"';?> class="btn btn-primary">Sim</a>
                         </p>
                        
                     </div>

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<meta charset="utf-8">
@@ -79,6 +80,7 @@
         <div class="form-group col-sm-2">
             <label for="text">#</label>
             <input type="text" class="form-control" id="num" name="num"">
+
         </div>
 
         <!-- DATA DO JOGO -->
@@ -114,6 +116,7 @@
                     <option>SAO PAULO</option>
                 </select>
         </div>
+        <input type="hidden" name="edicao" value=<?php echo '"'.$edicao.'"'?>"Norway">
         <br><br>
         <br><br>
         <br><br>
