@@ -117,6 +117,10 @@
                 </div>
             </div>
 
+            <input type="hidden" name="edicao" value=<?php echo '"'.$edicao.'"'?>>
+            
+            <hr class="col-sm-12">
+
             <div class="col-sm-12"><br><br>
                 <button type="submit" class="btn btn-primary">SALVAR</button>
             </div>

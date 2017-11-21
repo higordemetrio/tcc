@@ -147,6 +147,8 @@
                     <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
             </div>
 
+            <hr class="col-sm-12">
+            
             <div class="col-sm-12"><br><br>
                 <button type="submit" class="btn btn-primary">SALVAR</button>
             </div>

@@ -116,11 +116,12 @@
                     <option>SAO PAULO</option>
                 </select>
         </div>
-        <input type="hidden" name="edicao" value=<?php echo '"'.$edicao.'"'?>"Norway">
+        <input type="hidden" name="edicao" value=<?php echo '"'.$edicao.'"'?>>
+        <br>
         <br><br>
         <br><br>
         <br><br>
-        <br><br>
+        <hr class="col-sm-12">
         <button type="submit" class="btn btn-primary">PROXIMO</button>
     </form>
 </div>
