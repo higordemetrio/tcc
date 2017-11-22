@@ -39,7 +39,7 @@
                     <li role="presentation" class="brand-nav"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Start (Line-ups)</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Full Time (Match Report)</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Full Time (Match Statistics)</a></li>
-                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Tactical Startlist Neutral</a></li>
+                    <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Tactical Startlist Neutral (Tactical line-up)</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab5" aria-controls="tab5" role="tab" data-toggle="tab">Actual Formation</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab6" aria-controls="tab6" role="tab" data-toggle="tab">Team Statistic</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab7" aria-controls="tab7" role="tab" data-toggle="tab">Player Statistic</a></li>
@@ -64,6 +64,12 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab3">
                         <?php include 'matchstatistics.php'; ?> 
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="tab4">
+                        <?php include 'taticallineup.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             
                         </div>
