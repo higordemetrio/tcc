@@ -13,6 +13,7 @@ function addTableTime1() {
             var t1 = "<table><tr><th><input type='text' class='form-control' name='time1_numero"+i+"'> </th>";
             tudo += t1;
             for (j = 1; j <= qnt.value; j++) {
+
                 var t2 = "<td><input type='text' class='form-control' name='time1_pass"+i+"_"+j+"'> </td>";
                 tudo += t2;
             }
