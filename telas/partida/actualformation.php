@@ -14,6 +14,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="../../js/cadastroposicao.js"></script>
     
 <head>
     <title>FIFA SCOUT - ACTUAL FORMATION</title>
@@ -49,6 +50,20 @@
                     <label for="tamanho_campo">H: </label>
                     <input type="text" class="form-control" id="h" name="h">
                 </div>
+                <div class="col-sm-4"> 
+                    <label for="tempo">Tempo:</label>
+
+                    <select class="form-control" id="tempo" name="tempo">
+                        <option>0-15</option>
+                        <option>15-30</option>
+                        <option>30-45</option>
+                        <option>First half</option>
+                        <option>45-60</option>
+                        <option>60-75</option>
+                        <option>75-90</option>
+                        <option>Second half</option>
+                    </select>
+                </div>
             </div>
 
             <br><br><br><br>
@@ -75,7 +90,11 @@
                     <div class="form-group col-sm-3">
                         <label for="text">Y</label>   
                     </div>
+                    <div class="form-group col-sm-3">
+                        <label for="text"><img src="../../imagens/circulotracejado.png" width="25"></label>   
+                    </div>
                 </div>
+                <div id=camposPosicaoTime1 >
                  <?php
                     for ($i=1; $i < 12; $i++) { 
                         echo '   
@@ -91,11 +110,20 @@
                         <div id = nome class="form-group col-sm-3">             
                             <input type="text" class="form-control" id="time1_y" name="time1_y'.$i.'">
                         </div>
+                        <div id = nome class="form-group col-sm-3">             
+                            <input type="checkbox" class="form-control"  name="time1_dnptem'.$i.'">
+                        </div>
                         </div>
                         ';
                     }
                 ?>
-                
+                </div>
+                <div class="col-sm-6 ">
+                    &nbsp&nbsp&nbsp
+                    <button type="button" class="btn btn-primary" onclick="addCampoTime1()">+</button>
+                    <br><br><br>
+                    <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
+                </div>
             </div>
 
             <!-- TIME 2 -->
@@ -116,7 +144,11 @@
                     <div class="form-group col-sm-3">
                         <label for="text">Y</label>   
                     </div>
+                    <div class="form-group col-sm-3">
+                        <label for="text"><img src="../../imagens/circulotracejado.png" width="25"></label>   
+                    </div>
                 </div>
+                <div id=camposPosicaoTime2 >
                 <?php
 
                 for ($i=1; $i < 12; $i++) { 
@@ -133,11 +165,21 @@
                     <div id = nome class="form-group col-sm-3">             
                         <input type="text" class="form-control" id="time2_y" name="time2_y'.$i.'">
                     </div>
+                    <div id = nome class="form-group col-sm-3">             
+                            <input type="checkbox" class="form-control"  name="time2_dnptem'.$i.'">
+                        </div>
                     </div>
                     ';
                     }
             
                 ?>
+                </div>
+                <div class="col-sm-6 ">
+                    &nbsp&nbsp&nbsp
+                    <button type="button" class="btn btn-primary" onclick="addCampoTime2()">+</button>
+                    <br><br><br>
+                    <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
+                </div>
             </div>
            
             

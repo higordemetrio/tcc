@@ -74,6 +74,18 @@
                             
                         </div>
                     </div>
+                    <div role="tabpanel" class="tab-pane" id="tab5">
+                        <?php include 'actualformation.php'; ?> 
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane active" id="tab8">
+                        <?php include 'passingdistribution.php'; ?> 
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
+                    </div>
                     <div role="tabpanel" class="tab-pane" id="tab9">
                         <p align="center">
                             <font size='4'> Você tem certeza que deseja voltar à edição?</font> <br><br>
