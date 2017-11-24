@@ -13,24 +13,17 @@
 </head>
 <body>
 
-<div class="container">
-<div class="row">
-<div class="span12">
-<div class="jc-demo-box">
 
-<div class="page-header">
 
-<h1>Pegar coordenadas (Recorte)</h1>
-</div>
 
   <!-- This is the image we're attaching Jcrop to -->
 
   <!-- This is the form that our event handler fills -->
 
-    <div class="inline-labels">
+  
 
 
-    <img src="files/imgrecortada.png" onclick="showCoords(event)">
+    <img src="files/imgrecortada.png" onclick="showCoords(event)" id="campo">
 
         <p id="info" style="font-size: 30px">
             <span> Clique no campo para pegar as cordenadas.</span>
@@ -59,15 +52,10 @@
         </script>
 
 
-    </div>
-
     <a class="btn" href="recorteimagem.html"> Voltar </a>
     <a class="btn" href="upload.php"> Upload </a>
   
-</div>
-</div>
-</div>
-</div>
+
 </body>
 </html>
 

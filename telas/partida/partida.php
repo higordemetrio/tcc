@@ -57,7 +57,7 @@
                         </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab2">
-                        <?php include 'cadastrocabecalho.php'; ?> 
+                        <?php include 'matchreport.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             
                         </div>

@@ -1,6 +1,4 @@
-<?php 
-    $idpartida = $_GET['idpartida'];
-?>
+
 <!DOCTYPE html>
 <html>
     <meta charset="utf-8">
