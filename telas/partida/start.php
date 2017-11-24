@@ -101,7 +101,7 @@
             </div>
             <hr class="col-sm-12">
             <!-- TIME 1 -->
-           <div class="form-group col-sm-3">
+            <div class="form-group col-sm-3">
                 <label for="etapa"><?php echo "<h4>".$time1."</h4>" ?></label>
             </div>
             <!-- Shirt-->
@@ -166,7 +166,7 @@
 
              <hr class="col-sm-12">
             <!-- TIME 2 -->
-           <div class="form-group col-sm-3">
+            <div class="form-group col-sm-3">
                 <label for="etapa"><?php echo "<h4>".$time2."</h4>" ?></label>
             </div>
             <!-- Shirt-->
