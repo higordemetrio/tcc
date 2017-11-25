@@ -80,6 +80,12 @@
                             
                         </div>
                     </div>
+                    <div role="tabpanel" class="tab-pane" id="tab6">
+                        <?php include 'teamtracking.php'; ?> 
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
+                    </div>
                     <div role="tabpanel" class="tab-pane" id="tab8">
                         <?php include 'passingdistribution.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
