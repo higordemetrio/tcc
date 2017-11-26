@@ -56,7 +56,7 @@
                             
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane active" id="tab2">
+                    <div role="tabpanel" class="tab-pane" id="tab2">
                         <?php include 'matchreport.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             
@@ -82,6 +82,12 @@
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab6">
                         <?php include 'teamtracking.php'; ?> 
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane active" id="tab7">
+                        <?php include 'playerstatistics.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             
                         </div>

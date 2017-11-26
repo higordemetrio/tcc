@@ -30,9 +30,19 @@
     <hr class="col-sm-12">
        
         
-               
+    <div class="col-sm-12"> 
+        <div class="col-sm-12">
+                <label >Time:</label>
+        </div>
+        <div class="col-sm-4">
+            <select class="form-control" id="tempo" name="tempo">
+                <option><?php echo $time1 ;?></option>
+                <option><?php echo $time2 ;?></option>
+            </select>
+        </div>
+    </div>           
     <div class="col-sm-12">
-        <label>Quantidade de jogadores</label>
+        <label>Quantidade de jogadores:</label>
     </div>
     <div class="col-sm-12"> 
         <div class="col-sm-1">

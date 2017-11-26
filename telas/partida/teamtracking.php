@@ -16,6 +16,8 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
 
+    <script type="text/javascript" src="../../js/teamtracking.js"></script>
+
 <head>
     <title>FIFA SCOUT - CADASTRO DE CABECALHO</title>
 
@@ -29,6 +31,17 @@
 <hr class="col-sm-12">
 
 <div class="col-sm-12">
+    <div class="col-sm-12"> 
+        <div class="col-sm-12">
+                <label for="tempo">Time:</label>
+        </div>
+        <div class="col-sm-4">
+            <select class="form-control" id="tempo" name="tempo">
+                <option><?php echo $time1 ;?></option>
+                <option><?php echo $time2 ;?></option>
+            </select>
+        </div>
+    </div>
     <div class="col-sm-6" style="text-align: center;">
         <div class="col-sm-12"><label> Ball Possession heat map</label></div>
         <div class="col-sm-5 col-sm-offset-3" >
@@ -79,49 +92,54 @@
 </div>
 <hr class="col-sm-12">
     
-<div id = campos>
+
     <div class="col-sm-12">
-        <div class="col-sm-3" style="text-align: center;">
-            <input type="text" class="form-control" name="time1report1">
+        <div class="col-sm-1" style="text-align: center;">
+            <label>#</label>
         </div>
-
         <div class="col-sm-2" style="text-align: center;">
-            <select class="form-control" name="time1tipo">
-                <option>Goal Scored</option>
-                <option>Own Goal</option>
-                <option>Penalty Scored</option>
-                <option>Penalty Missed</option>
-                <option>Yellow Card</option>
-                <option>2Y = R</option>
-                <option>Red Card</option>
-                <option>Substitution</option>
-            </select>
+            <label>In Poss</label>        
         </div>
-
-
         <div class="col-sm-2" style="text-align: center;">
-            <input type="text" class="form-control"  name="minreport1">
+            <label>Not in Poss</label>
         </div>
-                
-
         <div class="col-sm-2" style="text-align: center;">
-            <select class="form-control" name="time2tipo">
-                <option>Goal Scored</option>
-                <option>Own Goal</option>
-                <option>Penalty Scored</option>
-                <option>Penalty Missed</option>
-                <option>Yellow Card</option>
-                <option>2Y = R</option>
-                <option>Red Card</option>
-                <option>Substitution</option>
-            </select>
+            <label>Opp. Half</label>
         </div>
-
-
-        <div class="col-sm-3" style="text-align: center;">
-            <input type="text" class="form-control"  name="time1report1">
+        <div class="col-sm-2" style="text-align: center;">
+            <label>Att. 3rd</label>
+        </div>
+        <div class="col-sm-2" style="text-align: center;">
+            <label>Pen. Area</label>
         </div>
     </div>
+<div id = campostracking>
+    <div class="col-sm-12">
+        <div class="col-sm-1" style="text-align: center;">
+            <input type="text" class="form-control" name="num1">
+        </div>
+        <div class="col-sm-2" style="text-align: center;">
+            <input type="text" class="form-control" name="inposs1">
+        </div>
+        <div class="col-sm-2" style="text-align: center;">
+            <input type="text" class="form-control" name="notinposs1">
+        </div>
+        <div class="col-sm-2" style="text-align: center;">
+            <input type="text" class="form-control" name="opphalf1">
+        </div>
+        <div class="col-sm-2" style="text-align: center;">
+            <input type="text" class="form-control" name="att3rd1">
+        </div>
+        <div class="col-sm-2" style="text-align: center;">
+            <input type="text" class="form-control" name="penarea1">
+        </div>
+    </div>
+</div>
+<div class="col-sm-12 ">
+    &nbsp&nbsp&nbsp
+    <button type="button" class="btn btn-primary" onclick="addCampoTracking()">+</button>
+    <br><br><br>
+    <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
 </div>
 
 
