@@ -15,6 +15,7 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
     <script type="text/javascript" src="../../js/cadastroposicao.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 <head>
     <title>FIFA SCOUT - ACTUAL FORMATION</title>
@@ -98,7 +99,7 @@
                  <?php
                     for ($i=1; $i < 12; $i++) { 
                         echo '   
-                        <div class="col-sm-10">
+                        <div class="col-sm-10" id=campoPosicaoTime1_'.$i.'>
                         <div id = numero class="form-group col-sm-3">               
                             <input type="text" class="form-control" id="time1_numero" name="time1_numero'.$i.'">              
                         </div>
@@ -120,9 +121,8 @@
                 </div>
                 <div class="col-sm-6 ">
                     &nbsp&nbsp&nbsp
-                    <button type="button" class="btn btn-primary" onclick="addCampoTime1()">+</button>
-                    <br><br><br>
-                    <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
+                    <button type="button" class="btn btn-primary" id="addCampoTime1">+</button>
+                    <button type="button" class="btn btn-primary" id="subCampoTime1">-</button>
                 </div>
             </div>
 
@@ -153,7 +153,7 @@
 
                 for ($i=1; $i < 12; $i++) { 
                     echo '   
-                    <div class="col-sm-10">
+                    <div class="col-sm-10" id=campoPosicaoTime2_'.$i.'>
                     <div id = numero class="form-group col-sm-3">               
                         <input type="text" class="form-control" id="time2_numero" name="time2_numero'.$i.'">              
                     </div>
@@ -176,9 +176,8 @@
                 </div>
                 <div class="col-sm-6 ">
                     &nbsp&nbsp&nbsp
-                    <button type="button" class="btn btn-primary" onclick="addCampoTime2()">+</button>
-                    <br><br><br>
-                    <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
+                    <button type="button" class="btn btn-primary" id="addCampoTime2">+</button>
+                    <button type="button" class="btn btn-primary" id="subCampoTime2">-</button>
                 </div>
             </div>
            

@@ -32,17 +32,28 @@
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active" id="tab1">                        
                         <?php include 'telas/inicio/sobre.php'; ?>
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab2">
                         <?php include 'telas/inicio/cadastroedicao.php'; ?> 
-                       
+                       <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab3">
                         
                         <?php include 'telas/inicio/editaredicao.php'; ?> 
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="tab4">
                         <?php include 'telas/inicio/comofunciona.php'; ?> 
+                        <div class='col-sm-12' style="height: 40px;">    
+                            
+                        </div>
                     </div>
                 </div>
             </div>

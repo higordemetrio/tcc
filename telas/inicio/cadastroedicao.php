@@ -51,7 +51,10 @@
                 <br><br>
                 <div class="form-group col-sm-3">
                         <label for="text">A</label>
-                        <input type="text" class="form-control" id="grupoTime" name="grupoAtime1">
+                         <select class="form-control" name="grupoAtime1">
+                            <option>-</option>
+                            <option>-</option>
+                        </select>
                         <input type="text" class="form-control" id="grupoTime" name="grupoAtime2">
                         <input type="text" class="form-control" id="grupoTime" name="grupoAtime3">
                         <input type="text" class="form-control" id="grupoTime" name="grupoAtime4">
@@ -129,22 +132,23 @@
                     <label for="text">ESTADIO/STADIUM</label>   
                 </div>
             </div>
+            <div id=camposCidades >
+                <div class="col-sm-12" id=campoCidades1>
+                    <div id = cidades class="form-group col-sm-3">               
+                        <input type="text" class="form-control" id="cidades" name="cidade1">              
+                    </div>
 
-            <div class="col-sm-12">
-                <div id = cidades class="form-group col-sm-3">               
-                    <input type="text" class="form-control" id="cidades" name="cidade1">              
-                </div>
-
-                <div id = estadios class="form-group col-sm-3">             
-                    <input type="text" class="form-control" id="estadios" name="estadio1">
+                    <div id = estadios class="form-group col-sm-3">             
+                        <input type="text" class="form-control" id="estadios" name="estadio1">
+                    </div>
                 </div>
             </div>
             <br>
              <div class="col-sm-12 ">
                     &nbsp&nbsp&nbsp
-                    <button type="button" class="btn btn-primary" onclick="addCampo()">+</button>
+                    <button type="button" class="btn btn-primary" id=addCidade onclick="addCampo()">+</button>
+                    <button type="button" class="btn btn-primary" id=subCidade onclick="addCampo()">-</button>
                     <br><br><br>
-                    <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
             </div>
 
             <hr class="col-sm-12">

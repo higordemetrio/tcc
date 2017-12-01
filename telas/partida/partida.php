@@ -22,6 +22,7 @@
     <script src="../../bootstrap/layout/jquery/jquery-1.11.1.min.js"></script>
     <link href="../../bootstrap/layout/css/bootstrap.min.css" rel="stylesheet">
     <script src="../../bootstrap/layout/js/bootstrap.min.js"></script>
+    <script src="../../js/jquery-3.2.1.min.js"></script>
 <head>
     <title>FIFA SCOUT</title>
 
@@ -49,7 +50,7 @@
             </div>
             <div class="col-sm-10">
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane" id="tab1">
+                    <div role="tabpanel" class="tab-pane active" id="tab1">
                         
                         <?php include 'start.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
@@ -86,7 +87,7 @@
                             
                         </div>
                     </div>
-                    <div role="tabpanel" class="tab-pane active" id="tab7">
+                    <div role="tabpanel" class="tab-pane" id="tab7">
                         <?php include 'playerstatistics.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
                             

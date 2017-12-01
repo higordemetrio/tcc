@@ -17,7 +17,7 @@
     <script type="text/javascript" src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
 
     <script type="text/javascript" src="../../js/teamtracking.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <head>
     <title>FIFA SCOUT - CADASTRO DE CABECALHO</title>
 
@@ -137,7 +137,8 @@
 </div>
 <div class="col-sm-12 ">
     &nbsp&nbsp&nbsp
-    <button type="button" class="btn btn-primary" onclick="addCampoTracking()">+</button>
+    <button type="button" class="btn btn-primary" id="addCampoTracking">+</button>
+    <button type="button" class="btn btn-primary" id="subCampoTracking">-</button>
     <br><br><br>
     <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
 </div>

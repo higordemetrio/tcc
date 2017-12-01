@@ -17,6 +17,8 @@
     <script type="text/javascript" src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
 
     <script type="text/javascript" src="../../js/matchreport.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     
 <head>
     <title>FIFA SCOUT - CADASTRO DE CABECALHO</title>
@@ -56,8 +58,8 @@
 </div>
 <hr class="col-sm-12">
     
-<div id = campos>
-    <div class="col-sm-12">
+<div id = mrcampos>
+    <div class="col-sm-12" id=mrcampo1>
         <div class="col-sm-3" style="text-align: center;">
             <input type="text" class="form-control" name="time1report1">
         </div>
@@ -103,13 +105,12 @@
 
 <div class="col-sm-12 ">
     &nbsp&nbsp&nbsp
-    <button type="button" class="btn btn-primary" onclick="addCampo()">+</button>
-    <br><br><br>
-    <p><font color="red"> *Primeiro adicione todos os campos necessários para depois preencher!</font></p>
+    <button type="button" class="btn btn-primary" id="addCampoMatchReport">+</button>
+    <button type="button" class="btn btn-primary" id="subCampoMatchReport">-</button>
 </div>
 
 <hr class="col-sm-12">
-<button type="submit" class="btn btn-primary">PROXIMO</button>
+<button type="submit" class="btn btn-primary">SALVAR</button>
 </form>
 
 

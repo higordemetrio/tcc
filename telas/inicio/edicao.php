@@ -38,7 +38,7 @@ if (isset($_GET['edicao'])) {
             </div>
             <div class="col-sm-10">
                 <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane" id="tab1">
+                    <div role="tabpanel" class="tab-pane active" id="tab1">
                         
                         <?php include '../edicao/cadastroselecao.php'; ?> 
                         <div class='col-sm-12' style="height: 40px;">    
