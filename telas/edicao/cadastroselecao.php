@@ -15,6 +15,7 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
+    <script type="text/javascript" src="../../js/vanilla-masker.min.js"></script>
 
 
     
@@ -96,8 +97,8 @@
 
                     
                      
-                    <div id = data class="form-group col-sm-2">
-                        <input type="text" class="form-control" id="data" name="data'.$i.'"/>
+                    <div id = date class="form-group col-sm-2">
+                        <input type="text" class="form-control" id="date" name="data'.$i.'"/>
                         
                     </div>
                 </div>

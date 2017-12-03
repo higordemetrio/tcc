@@ -146,8 +146,8 @@
             <br>
              <div class="col-sm-12 ">
                     &nbsp&nbsp&nbsp
-                    <button type="button" class="btn btn-primary" id=addCidade onclick="addCampo()">+</button>
-                    <button type="button" class="btn btn-primary" id=subCidade onclick="addCampo()">-</button>
+                    <button type="button" class="btn btn-primary" id=addCidade>+</button>
+                    <button type="button" class="btn btn-primary" id=subCidade>-</button>
                     <br><br><br>
             </div>
 
