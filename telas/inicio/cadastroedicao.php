@@ -1,24 +1,10 @@
 <!DOCTYPE html>
 <html>
-	<meta charset="utf-8">
-	<link href="css/style.css" rel="stylesheet">
-	<meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- https://bootsnipp.com/snippets/3kerp -->
-	<!-- CSS e JS do layout -->
-    <link rel="stylesheet" type="text/css" media="screen" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/build/css/bootstrap-datetimepicker.css" />
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment-with-locales.js"></script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/e8bddc60e73c1ec2475f827be36e1957af72e2ea/src/js/bootstrap-datetimepicker.js"></script>
     <script type="text/javascript" src="js/cadastroedicao.js"></script>
     
 <head>
-	<title>FIFA SCOUT - CADASTRO DE EDICAO</title>
-
+	
 </head>
 <body>
     <br>
@@ -27,26 +13,22 @@
         
     </p>
     
-
-    
     <hr class="col-sm-10 col-sm-offset-1">
     <div class="container col-sm-9 col-sm-offset-2">
     	<form>
-        <!-- SELECIONAR O PAIS SEDE -->
             <div class="form-group col-sm-3">
-                <label for="etapa">PAIS/COUNTRY: </label>
+                <label for="etapa">PAIS </label>
                 <input type="text" class="form-control" id="pais" name="pais">
             </div>
-         <!-- SELECIONAR O PAIS SEDE -->
             <div class="form-group col-sm-3">
-                <label for="etapa">ANO/YEAR: </label>
+                <label for="etapa">ANO </label>
                 <input type="text" class="form-control" id="ano" name="ano">
             </div>
 
             <br><br><br><br>
             <hr>
             <div class="form-group col-sm-12">
-                <label for="etapa">TIMES/TEAMS: </label>
+                <label for="etapa">SELEÇÕES </label>
                 
                 <br><br>
                 <div class="form-group col-sm-3">
@@ -118,18 +100,15 @@
             </div>
              <br><br><br><br>
             
-            <hr class="col-sm-12"><!-- 
-            <div class="form-group col-sm-2">
-            <label for="etapa">CIDADES/CITYS </label>
-            </div> -->
+            <hr class="col-sm-12">
             <br><br>
             <div class="col-sm-12"><br><br>
                 <div class="form-group col-sm-3">
-                    <label for="text">CIDADES/CITYS</label>   
+                    <label for="text">CIDADES</label>   
                 </div>
 
                 <div class="form-group col-sm-3">
-                    <label for="text">ESTADIO/STADIUM</label>   
+                    <label for="text">ESTADIOS</label>   
                 </div>
             </div>
             <div id=camposCidades >

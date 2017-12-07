@@ -1,15 +1,19 @@
 
 <!DOCTYPE html>
 <html>
-    <script type="text/javascript" src="../../js/VanillaMasker.js"></script>  
+
+    <script type="text/javascript" src="../../js/VanillaMasker.js"></script>
+    
 <head>
+
 </head>
 <body>
     <br>
     <P align="center" class="col-sm-10 col-sm-offset-1"  >
          <a type="button" href="../edicao/cadastroselecao_ondeencontrar.php" target="_blank" class="btn btn-primary"> Onde encontrar? </a>
         
-    </p> 
+    </p>
+    
     <hr class="col-sm-12">
     <div class="container col-sm-12">
         <form>
@@ -21,8 +25,13 @@
                     <option>GERMANY</option>
                 </select>
             </div>
+
+         
+
             <br><br><br><br>
-            <hr>         
+            <hr>
+          
+            
             <br><br>
             <div class="col-sm-12"><br><br>
                 <div class="form-group col-sm-1">
@@ -41,8 +50,10 @@
                     <label for="text">DOB</label>   
                 </div>
 
-            </div>          
+            </div> 
+          
             <?php
+
             for ($i=1; $i < 24; $i++) { 
                 echo '   
                 <div class="col-sm-12">
@@ -87,11 +98,15 @@
                     <input type="text" class="form-control" id="nome" name="naccouch">
                 </div>
             </div>
-            <input type="hidden" name="edicao" value=<?php echo '"'.$edicao.'"'?>>           
+
+            <input type="hidden" name="edicao" value=<?php echo '"'.$edicao.'"'?>>
+            
             <hr class="col-sm-12">
+
             <div class="col-sm-12"><br><br>
                 <button type="submit" class="btn btn-primary">SALVAR</button>
             </div>
+
         </form>
     </div>
 
