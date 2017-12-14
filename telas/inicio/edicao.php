@@ -15,7 +15,7 @@ if (isset($_GET['edicao'])) {
         <div role="tabpanel">
             <div class="col-sm-2">
                 <ul class="nav nav-pills brand-pills nav-stacked" role="tablist">
-                    <li role="presentation" class="brand-nav"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Cadastrar uma Seleção</a></li>
+                    <li role="presentation" class="brand-nav active"><a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Cadastrar uma Seleção</a></li>
                     <li role="presentation" class="brand-nav"><a href="#tab2" aria-controls="tab2" role="tab" data-toggle="tab">Editar uma Seleção</a>
                     <li role="presentation" class="brand-nav"><a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab">Cadastrar uma Partida</a>
                     <li role="presentation" class="brand-nav"><a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab">Editar uma Partida</a>
@@ -53,5 +53,5 @@ if (isset($_GET['edicao'])) {
         </div>
     </div>
 </div>
-
+ 
 

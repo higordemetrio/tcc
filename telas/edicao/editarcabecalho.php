@@ -18,7 +18,7 @@
 <br>    
 
     <P align="center" class="col-sm-10 col-sm-offset-1"  >
-      <a type="button" href="../edicao/cadastrocabecalho_ondeencontrar.php" target="_blank" class="btn btn-primary"> Onde encontrar? </a>       
+      <a type="button" href="../edicao/ondeencontrar/cadastrocabecalho_ondeencontrar.php" target="_blank" class="btn btn-primary"> Onde encontrar? </a>       
     </p>
 <hr class="col-sm-10 col-sm-offset-1">
 <div class="container col-sm-9 col-sm-offset-2">

@@ -10,7 +10,7 @@
 <body>
     <br>
     <P align="center" class="col-sm-10 col-sm-offset-1"  >
-         <a type="button" href="../edicao/cadastroselecao_ondeencontrar.php" target="_blank" class="btn btn-primary"> Onde encontrar? </a>
+         <a type="button" href="../edicao/ondeencontrar/cadastroselecao_ondeencontrar.php" target="_blank" class="btn btn-primary"> Onde encontrar? </a>
         
     </p>
     
